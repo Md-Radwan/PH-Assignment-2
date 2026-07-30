@@ -4,7 +4,7 @@ function matchWinner(teamAGoals, teamBGoals) {
   } else if (teamAGoals > teamBGoals) {
     return "Team A Won";
   } else if (teamAGoals < teamBGoals) {
-    return "Team A Won";
+    return "Team B Won";
   } else {
     return "Draw";
   }
