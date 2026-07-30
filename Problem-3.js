@@ -6,7 +6,9 @@ function calculateAiCost(tokensUsed) {
     return "Invalid";
   } else if (tokensUsed <= 500) {
     return 0;
-  } else return Math.floor(totalCost) * 5;
+  } else {
+    return Math.floor(totalCost) * 5;
+  }
 }
 
 console.log(calculateAiCost(300));
